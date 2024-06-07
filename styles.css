@@ -1,0 +1,262 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation Menu */
+nav {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* Header Section */
+header {
+    background: url('bg1.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+header .cta {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+section{
+    text-align: center;
+}
+
+header .cta:hover {
+    background: #555;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* About Section */
+.team {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+/* Products Section */
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+/* Pricing Section */
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.pricing-plan h3 {
+    margin-bottom: 10px;
+}
+
+.pricing-plan p {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.pricing-plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pricing-plan ul li {
+    margin: 10px 0;
+}
+
+/* Resources Section */
+.resource {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Support Section */
+.support-option {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Contact Section */
+form {
+    background-color:gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-media a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.social-media a:hover {
+    color: #ddd;
+}
+
+/* CTA Button */
+.cta {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.cta:hover {
+    background: #555;
+}
